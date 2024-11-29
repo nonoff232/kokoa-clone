@@ -1,3 +1,3 @@
 #kokoa-clone 2024
 
-Css is awesome!
+Css and html is DONE!
