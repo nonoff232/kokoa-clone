@@ -59,3 +59,6 @@ margin: 0px 30px;
     color:inherit;
     opacity: 50%;
 }
+#login-form input[type="password"]{
+    margin-bottom: 50px;
+}
