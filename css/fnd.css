@@ -1,0 +1,16 @@
+#FND{
+    display: block;
+    text-align: center;
+    background-color: rgb(255, 237, 171);
+    padding: 10px 0px;
+    margin-top: 10px;
+}
+
+#FND i{
+    color: rgb(172, 172, 172);
+}
+
+.highlight{
+    color: rgb(70, 0, 113);
+    font-weight: 700;
+}

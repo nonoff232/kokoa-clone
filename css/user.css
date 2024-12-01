@@ -1,0 +1,38 @@
+.user{
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid rgb(234, 234, 234);
+    border-top: 3px solid rgb(234, 234, 234);
+    margin-top: 10px;
+}
+
+.user_column:first-child{
+    display: flex;
+    align-items: center;
+    margin: 12px 15px;
+}
+
+.user_photo{
+    width: 70px;
+    height: 70px;
+    border-radius: 35%;
+    margin-right: 10px;
+}
+
+.user_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.chingho{
+    background-color: rgb(153, 84, 188);
+    padding: 5px;
+    border-radius: 10%;
+    font-weight: 500;
+    color: darkorange;
+    margin-bottom: 1px;
+}
+
+.user_name{
+    font-weight: 500;
+}
