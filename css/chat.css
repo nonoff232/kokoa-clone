@@ -1,0 +1,42 @@
+.chat{
+    display: flex;
+    align-items: center;
+}
+
+.screen_header2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 25px 15px 25px;
+    border-bottom: 2px solid rgb(223, 223, 223);
+    margin-bottom: 20px;
+}
+
+.user_text2{
+    margin-left: 15px;
+}
+
+.user_name2{
+    margin-left: 0px;
+    font-size: 17px;
+}
+
+.user_description2{
+    display: flex;
+    font-size: 14px;
+    opacity: 60%;
+    margin-top: 3px;
+}
+
+.user_column2{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.chat_time{
+    font-size: 15px;
+    opacity: 60%;
+}
