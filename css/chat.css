@@ -8,8 +8,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 40px 25px 15px 25px;
-    border-bottom: 2px solid rgb(223, 223, 223);
-    margin-bottom: 20px;
+    border-bottom: var(--main-border-bottom);
 }
 
 .user_text2{
@@ -24,7 +23,7 @@
 .user_description2{
     display: flex;
     font-size: 14px;
-    opacity: 60%;
+    color: var(--defalt-gray);
     margin-top: 3px;
 }
 
@@ -38,5 +37,11 @@
 
 .chat_time{
     font-size: 15px;
-    opacity: 60%;
+    color: var(--defalt-gray);
+}
+
+.user_column3{
+    display: flex;
+    margin-left: 27px;
+    margin-bottom: 10px;
 }

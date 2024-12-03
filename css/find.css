@@ -1,0 +1,157 @@
+.header_icon{
+    display: flex;
+    position: relative;
+}
+
+.gear_dot{
+    display: flex;
+    position: absolute;
+    color: tomato;
+    font-size: 40px;
+    bottom: 14px;
+}
+
+.find_icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0px 20px 30px 20px;
+    border-bottom: var(--main-border-bottom)
+}
+
+.find_icon_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find_icon_icon i{
+    font-size: 30px;
+}
+
+.find_icon_icon span{
+    margin-top: 15px;
+}
+
+.recommended_friends{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.recommended_friends_system{
+    padding: 15px 0px 0px 15px;
+    color: var(--defalt-gray)
+}
+
+.recommended_friends_list{
+    color: var(--defalt-gray);;
+    padding: 100px 0px 130px 0px;
+    display: flex;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    border-bottom: var(--main-border-bottom)
+}
+
+.open_chat_header{
+    color: var(--defalt-gray);
+    margin: 14px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_right{
+display: flex;
+}
+
+.header_right p{
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.header_right i{
+    opacity: 50%;
+}
+
+.chat_room{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    align-items: center;
+}
+
+.chat_room_left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    
+}
+
+.chat_room_name{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.chat_room_descript{
+    display: flex;
+    flex-direction: row;
+    color: var(--defalt-gray);
+    margin-bottom: 4px;
+}
+
+.chat_room_member{
+    display: flex;
+    align-items: center;
+    
+}
+
+.chat_room_masterpic{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.chat_room_mastermemb{
+    color: var(--defalt-gray);
+    margin-right: 8px;
+}
+
+.chat_room_active{
+    color: blueviolet;
+    font-weight: 500;
+}
+
+.chat_room_right{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+    position: relative;
+}
+
+.chat_room_right img{
+    border-radius: 15%;
+    width: 80px;
+    height: 80px;
+    
+}
+
+.chat_room_right_likes{
+    background-color: rgba(0, 0, 0, 0.434);
+    color: aliceblue;
+    padding: 3px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    font-size: small;
+    font-weight: 700;
+}
+
+.chat_room_right_likes span{
+    margin-left: 3px;
+}
