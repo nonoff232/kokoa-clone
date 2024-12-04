@@ -8,6 +8,8 @@
 @import"chat.css";
 @import"chat-alert.css";
 @import"find.css";
+@import"more.css";
+@import"row-icon.css";
 
 body{
     height: 115vh;
