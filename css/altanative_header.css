@@ -1,0 +1,24 @@
+.alter_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px 30px 20px;
+}
+
+.alter_header_column span{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.alter_header_column:first-child{
+    margin-right: auto;
+}
+
+.alter_header_column:last-child{
+    margin-left: auto;
+}
+
+.fa-bars{
+    margin-left: 10px
+}
+

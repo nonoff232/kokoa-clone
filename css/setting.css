@@ -1,0 +1,38 @@
+.setting_list{
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.setting_name{
+    margin-left: 10px;
+}
+
+.fa-solid{
+    width: 17.5px;
+}
+
+.setting_name_text{
+    right: 30px;
+    font-size: 20px;
+
+}
+
+.setting_list_column2{
+    opacity: 50%;
+    font-size: 16px;
+}
+
+.setting_ul{
+    padding-bottom: 50px;
+    border-bottom: var(--main-border-bottom);
+}
+
+.setting_ul_2{
+
+    margin-top: 30px;
+}

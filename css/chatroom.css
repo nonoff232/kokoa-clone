@@ -1,0 +1,10 @@
+#chatroom{
+    background-color: rgb(255, 166, 166);
+    height: 1000vh;
+}
+
+#chatroom .alter_header{
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}

@@ -10,6 +10,9 @@
 @import"find.css";
 @import"more.css";
 @import"row-icon.css";
+@import"altanative_header.css";
+@import"setting.css";
+@import"chatroom.css";
 
 body{
     height: 115vh;
