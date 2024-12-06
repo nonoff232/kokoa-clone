@@ -5,6 +5,10 @@
     padding: 50px 20px 30px 20px;
 }
 
+.alter_header_column{
+    width: 33%;
+}
+
 .alter_header_column span{
     font-size: 25px;
     font-weight: 600;
@@ -14,8 +18,19 @@
     margin-right: auto;
 }
 
+.alter_header_column:nth-child(2){
+    width: 60%;
+    text-align: center;
+}
+
 .alter_header_column:last-child{
     margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alter_header_column:last-child span{
+    width: 27.5px;
 }
 
 .fa-bars{

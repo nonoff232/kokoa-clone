@@ -6,7 +6,6 @@
     display: flex;
     justify-content: center;
     padding: 5px 3px;
-    background-color: rgb(241, 241, 241);
 }
 .status-bar__column{
     width: 33%;
@@ -27,4 +26,8 @@
 }
 .status-bar__column:last-child span{
    margin-right: 5px;
+}
+
+#chatroom .status-bar{
+    z-index: 2;
 }

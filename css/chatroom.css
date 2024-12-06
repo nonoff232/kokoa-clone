@@ -7,4 +7,154 @@
     position: fixed;
     width: 100%;
     box-sizing: border-box;
+    top: 0;
+    background-color: rgb(255, 166, 166);
+    z-index: 1;
+    
+}
+
+.chatroom_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:150px;
+}
+
+.chatroom_date{
+    margin-bottom:40px;
+}
+
+.chatroom_date_text{
+    background-color: rgb(182, 182, 182);
+    color: aliceblue;
+    padding: 5px 8px 8px 8px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.message-other{
+display: flex;
+margin-bottom: 30px;
+align-self: flex-start;
+margin-left: 20px;
+}
+
+.message-other img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.message-other-text{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   
+}
+
+.message-other-name{
+    color: var(--defalt-gray);
+    margin-bottom: 8px;
+    margin-left: 3px;
+
+    
+}
+
+.message-bubble{
+    background-color: aliceblue;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    margin-right: 5px;
+}
+
+.message-other-sayin{
+    display: flex;
+    align-items: flex-end
+}
+
+.message-time{
+    color: var(--defalt-gray);
+   
+    font-size: 13px;
+    
+}
+
+.me{
+    align-self: flex-end;
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.me .message-other-sayin{
+    flex-direction: row-reverse;
+}
+
+.me .message-bubble{
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    background-color: rgb(140, 198, 255);
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+.reply{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.reply i{
+    opacity: 0.5;
+}
+
+.reply .reply-input:first-child{
+    width: 10%;
+}
+
+.reply .reply-input:last-child{
+    width: 90%;
+    position:relative;
+}
+
+.reply input{
+    width: 100%;
+    height: 25px;
+    border-radius: 7px;
+}
+
+.reply-input:last-child > i,
+.reply-input:last-child button{
+    position: absolute;
+    right: 0;
+    top: 1px;
+    padding: 0px 0px;
+}
+
+.reply-input:last-child > i{
+    right: 30px;
+    top: 15px;
+}
+
+.reply-input:last-child button{
+    top: 4.5px;
+    right: -1px;
+    
+    border: none;
+    background-color: rgb(140, 198, 255);
+    padding: 3px;
+    border-radius: 7px;
+}
+
+.reply-input:last-child button i{
+ margin-right: 0;
 }
