@@ -84,3 +84,30 @@ font-size: larger;}
 .user_column:last-child{
     font-size: 15px
 }
+
+@keyframes hideSplashscreen {
+    0% { opacity: 1; }
+    25% { opacity: 1; }
+    50% { opacity: 1; }
+    75% { opacity: 1; }
+    100% { opacity: 0; 
+    visibility: hidden;}
+}
+
+
+.loading-screen{
+    background-color: white;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: hideSplashscreen 2s ease-out forwards;
+}
+
+.loading-screen img{
+    width: 180px;
+    height: 180px;
+}
