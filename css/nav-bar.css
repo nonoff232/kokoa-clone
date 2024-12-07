@@ -1,3 +1,4 @@
+
 .nav{
     position: fixed;
     bottom: 0;
@@ -6,6 +7,7 @@
     background-color:rgb(242, 242, 242);
     padding: 20px 50px;
     border-top: 2px solid rgb(214, 214, 214);
+
 }
 
 .nav_list{
@@ -20,6 +22,19 @@
     position: relative;
 }
 
+@keyframes watchthis {
+
+    0%{
+transform: none;
+    }
+    50%{
+transform: translateY(-5px) rotateY(360deg);
+    }
+    100%{
+transform: none;
+    }
+}
+
 .nav_notification{
     background-color: tomato;
     display: flex;
@@ -32,7 +47,8 @@
     font-weight: 500;
     position: absolute;
     left: 18px;
-    bottom: 18px;
+    bottom: 17px;
+    animation: watchthis 3s ease-in-out infinite;
 }
 
 .nav_point{

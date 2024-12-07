@@ -13,6 +13,7 @@
 @import"altanative_header.css";
 @import"setting.css";
 @import"chatroom.css";
+@import"mobile-only.css";
 
 body{
     height: 115vh;

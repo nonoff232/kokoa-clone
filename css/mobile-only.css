@@ -1,0 +1,23 @@
+#mobile-only{
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    font-size: 30px;
+}
+
+    @media screen and (max-width:645px){
+        #mobile-only{
+            transform: scale(0);
+        }
+    }
+
+#mobile-only span{
+    text-align: center;
+    width: 80vw;
+}

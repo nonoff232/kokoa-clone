@@ -13,12 +13,24 @@
     
 }
 
+@keyframes chatroomboom {
+    from{
+opacity: 0;
+transform: translateY(-40px);
+    }
+    to{
+opacity: 1;
+transform:none
+    }
+}
+
 .chatroom_main{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top:150px;
+    animation: chatroomboom .5s linear forwards;
 }
 
 .chatroom_date{
@@ -111,6 +123,7 @@ margin-left: 20px;
     padding: 5px 20px;
     box-sizing: border-box;
     align-items: center;
+    transition:all .3s ease-in-out;
 }
 
 .reply i{
@@ -130,6 +143,7 @@ margin-left: 20px;
     width: 100%;
     height: 25px;
     border-radius: 7px;
+    transition: all .3s ease-in-out;
 }
 
 .reply-input:last-child > i,
@@ -157,4 +171,26 @@ margin-left: 20px;
 
 .reply-input:last-child button i{
  margin-right: 0;
+}
+
+.reply .fa-square-plus,
+.reply .fa-face-smile,
+.reply button{
+    transition: opacity .3s ease-in-out;
+}
+
+.reply:focus-within .fa-square-plus,
+.reply:focus-within .fa-face-smile,
+.reply:focus-within button{
+    opacity: 0;
+}
+
+.reply:focus-within input{
+    width: 90vw;
+    transform: translateX(-11%) translateY(-50px);
+    border-radius: 15px;
+}
+
+.reply:focus-within{
+    transform: translateY(50px);
 }
